@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+
+    <!-- NuGet package metadata -->
+    <PackageId>HashSlingingSlasher</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Noah</Authors>
+    <Company>NotA</Company>
+    <Description>Your library description.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression> <!-- or another license -->
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>
